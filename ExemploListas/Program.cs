@@ -64,7 +64,7 @@ namespace ExemploListas
             //Filtrar lista
             //É necessário instanciar uma nova lista e passar recebendo a lista acima
             //No exemplo abaixo, foi usado a expressão Lambda no qual é necessário retornar somente os
-            //caracteres cujo o tamanho
+            //caracteres cujo o tamanho é igual a 5
             List<string> list2 = list.FindAll(x => x.Length == 5);
 
             foreach(string obj in list2)
